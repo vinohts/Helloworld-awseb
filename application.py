@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello from Elastic Beanstalk!"
+    return "Hello from Elastic Beanstalk!I am reaady for production"
 
 # For local run
 if __name__ == "__main__":
